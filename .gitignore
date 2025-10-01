@@ -26,3 +26,9 @@ Thumbs.db
 # Logs
 logs
 *.log
+
+#Documentation
+Documentation/
+# Docs and private notes
+Documentation/
+*.rtf
