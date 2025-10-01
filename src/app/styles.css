@@ -1,0 +1,22 @@
+:root{
+  --brand-primary:#4f46e5; /* indigo-600 */
+  --brand-primary-600:#4f46e5;
+  --brand-primary-700:#4338ca;
+  --brand-bg:#f6f7fb;
+  --brand-ink:#1f2937;
+  --brand-muted:#6b7280;
+  --brand-radius:16px;
+  --brand-shadow:0 8px 30px rgba(31,41,55,.08);
+}
+html,body{background:var(--brand-bg);min-height:100%;font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,'Apple Color Emoji','Segoe UI Emoji';color:var(--brand-ink);}
+.btn-primary{background:var(--brand-primary)!important;border-color:var(--brand-primary)!important;}
+.btn-primary:hover{background:var(--brand-primary-700)!important;border-color:var(--brand-primary-700)!important;}
+.card{border-radius:var(--brand-radius);box-shadow:var(--brand-shadow);border:0;}
+.badge-soft{background:rgba(79,70,229,.1);color:var(--brand-primary);}
+.hero{
+  background: radial-gradient(1000px 500px at 80% -10%, rgba(79,70,229,.15), transparent),
+              radial-gradient(800px 400px at -20% 10%, rgba(16,185,129,.10), transparent);
+}
+.rounded-xl{border-radius:var(--brand-radius)!important;}
+.icon-circle{width:40px;height:40px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;background:#eef2ff;}
+a.stretched-link{text-decoration:none}

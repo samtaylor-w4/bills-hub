@@ -1,0 +1,4 @@
+html, body { background: #f5f7fb; min-height: 100%; }
+.card { border-radius: 1rem; box-shadow: 0 4px 18px rgba(20,20,45,.05); }
+.nav-link { color: #344767; }
+.nav-link:hover { background: #f3f6ff; border-radius: .5rem; }
